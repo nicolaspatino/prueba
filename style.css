@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/04/2018, 07:41:58 PM
+    Author     : Daniela Sierra
+*/
+
+img{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+}
+.enviar{
+    font-size: 20px !important;
+    margin: 15px;
+    margin-left: 18%!important;
+    width: 140px !important;
+    height: 40px!important;
+    padding: 3px!important;
+    border-radius: 3px !important;
+    float: left!important;
+    background-color: #99ccff !important;
+    color: #fff!important; 
+    text-shadow: 1px 1px 0 #444 !important;
+}
+
+.enviar:hover{
+    font-size: 20px !important;
+    margin: 15px;
+    margin-left: 18%!important;
+    width: 140px !important;
+    height: 40px!important;
+    padding: 3px!important;
+    border-radius: 3px !important;
+    float: left!important;
+    background-color: blue !important;
+    color: #fff!important; 
+    text-shadow: 1px 1px 0 #444 !important;
+    cursor: pointer;
+}
+
+li {
+    font-size: 20px !important;
+}
+
+#no_supo{
+    display: none;
+}
+#id_imagen, #id_sonido {
+    font-size: 30px;
+    margin-left: 18%;
+    width: 300px;
+    height: 70px;
+    padding: 3px;
+    border-radius: 3px;
+    float: left;
+    background-color: lightslategrey;
+    color: #fff; 
+    text-decoration: none;
+    
+}
+#id_imagen:hover, #id_sonido:hover {
+    font-size: 30px;
+    margin-left: 18%;
+    width: 300px;
+    height: 70px;
+    padding: 3px;
+    border-radius: 3px;
+    float: left;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type='text'], select{
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    margin: 8px;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 8px;
+    
+}
